@@ -3,7 +3,7 @@ name: Docker Build
 on: [push]
 
 env:
-  CACHE_IMAGE: mjhea0/docker-ci-cache
+  CACHE_IMAGE: nmuller/docker-ci-cache
   DOCKER_BUILDKIT: 1
 
 jobs:
